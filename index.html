@@ -3,21 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Midtown Tavern | Neighborhood Bar &amp; Drive-Thru Package Liquor | Cheyenne, WY</title>
-<meta name="description" content="Midtown Tavern is a cozy neighborhood bar and drive-thru package liquor store at 1303 E Pershing Blvd in Cheyenne, Wyoming. Call (307) 638-8703.">
+<title>Prairie Star Tavern | Sample Website</title>
+<meta name="description" content="Sample website design for a fictional western-style tavern. Not a real business.">
+<meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#1f130c">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Midtown Tavern, Cheyenne, WY">
-<meta property="og:description" content="Cozy neighborhood bar and drive-thru package liquor store in Cheyenne, Wyoming.">
-<!-- PLACEHOLDER: add og:url and og:image once the live domain and a real photo exist -->
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231f130c'/%3E%3Cpath d='M32 10l6.5 14 15.5 1.8-11.5 10.5 3.2 15.2L32 43.5 18.3 51.5l3.2-15.2L10 25.8 25.5 24z' fill='%23e0ad2c'/%3E%3C/svg%3E">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BarOrPub","name":"Midtown Tavern",
-"description":"Cozy neighborhood bar and drive-thru package liquor store.",
-"telephone":"+1-307-638-8703",
-"address":{"@type":"PostalAddress","streetAddress":"1303 E Pershing Blvd","addressLocality":"Cheyenne","addressRegion":"WY","postalCode":"82001","addressCountry":"US"},
-"sameAs":["https://www.facebook.com/people/Midtown-Tavern/100057322673652/"]}
-</script>
 <style>
 :root{--ink:#26170e;--bark:#4a2c17;--saddle:#7b4a26;--gold:#e0ad2c;--sand:#f6ecd5;--paper:#fffaf0;--line:#c9a96a;--focus:#0b4fd6;--dark:#1f130c;--plank:#2c1a0f;
 --slab:Rockwell,"Roboto Slab","Rockwell Extra Bold",Georgia,serif;--gap:clamp(1rem,3vw,2rem);--pad:clamp(3rem,8vw,6rem)}
@@ -34,6 +24,7 @@ img,svg{max-width:100%}
 .skip:focus{top:.5rem}
 .wrap{width:min(100% - 2.5rem,70rem);margin-inline:auto}
 
+.sample{background:var(--gold);color:#26170e;text-align:center;font:700 .9rem var(--slab);padding:.5rem 1rem}
 /* header */
 .top{position:sticky;top:0;z-index:30;background:var(--dark);color:#f6ecd5;border-bottom:4px solid var(--gold);padding-top:env(safe-area-inset-top,0px)}
 .top .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;column-gap:1.5rem;padding-block:.4rem}
@@ -117,9 +108,10 @@ footer p{margin:.35rem 0}
 </style>
 </head>
 <body>
+<div class="sample" role="note">Sample website</div>
 <a class="skip" href="#main">Skip to main content</a>
 <header class="top"><div class="wrap">
-<a class="brand" href="#top">Midtown Tavern</a>
+<a class="brand" href="#top">Prairie Star Tavern</a>
 <nav aria-label="Main"><ul>
 <li><a href="#hours">Hours</a></li><li><a href="#about">About</a></li><li><a href="#gallery">Photos</a></li><li><a href="#contact">Contact</a></li>
 </ul></nav>
@@ -128,12 +120,12 @@ footer p{margin:.35rem 0}
 <main id="main">
 <div class="hero" id="top"><div class="wrap">
 <div class="sign">
-<h1>Midtown Tavern</h1>
-<p>A cozy neighborhood bar and drive-thru package liquor store in Cheyenne, Wyoming.</p>
+<h1>Prairie Star Tavern</h1>
+<p>A friendly western-style tavern with a small package store counter.</p>
 <p class="stars" aria-hidden="true">&#9733; &#9733; &#9733;</p>
 <div class="btns">
-<a class="btn" href="tel:+13076388703">Call (307) 638-8703</a>
-<a class="btn alt" href="https://www.google.com/maps/search/?api=1&amp;query=1303+E+Pershing+Blvd+Cheyenne+WY+82001">Get directions</a>
+<a class="btn" href="tel:+15555550142">Call (555) 555-0142</a>
+<a class="btn alt" href="https://www.google.com/maps">Get directions</a>
 </div></div>
 <!-- Original decorative artwork (no photo) -->
 <svg class="mesa" viewBox="0 0 800 120" aria-hidden="true" focusable="false"><circle cx="610" cy="62" r="34" fill="#e0ad2c"/><path d="M0 120V84l60-8 40-22h90l30 22 70-4 60 14 90-10 50-28h110l40 30 80-8 80 14v42z" fill="#7b4a26"/><path d="M0 120V102l140-6 120 8 160-6 140 6 240-4v20z" fill="#1f130c"/><g stroke="#e0ad2c" stroke-width="3"><path d="M20 120V92M120 120V92M220 120V92M320 120V92M420 120V92M520 120V92M620 120V92M720 120V92"/><path d="M0 98h800M0 108h800"/></g></svg>
@@ -142,37 +134,36 @@ footer p{margin:.35rem 0}
 <section id="hours"><div class="wrap">
 <h2>Hours</h2>
 <div class="status" id="status" hidden>
-<h3>Right now in Cheyenne</h3>
+<h3>Right now</h3>
 <ul id="status-list"></ul>
 </div>
 <div class="tablewrap">
 <table>
-<caption>Opening times by day</caption>
-<thead><tr><th scope="col">Day</th><th scope="col">Package store opens</th><th scope="col">Bar opens</th></tr></thead>
+<caption>Hours by day</caption>
+<thead><tr><th scope="col">Day</th><th scope="col">Package store</th><th scope="col">Bar</th></tr></thead>
 <tbody>
-<tr data-d="1"><th scope="row">Monday</th><td>11:00 AM</td><td>3:00 PM</td></tr>
-<tr data-d="2"><th scope="row">Tuesday</th><td>11:00 AM</td><td>3:00 PM</td></tr>
-<tr data-d="3"><th scope="row">Wednesday</th><td>11:00 AM</td><td>3:00 PM</td></tr>
-<tr data-d="4"><th scope="row">Thursday</th><td>11:00 AM</td><td>3:00 PM</td></tr>
-<tr data-d="5"><th scope="row">Friday</th><td>11:00 AM</td><td>3:00 PM</td></tr>
-<tr data-d="6"><th scope="row">Saturday</th><td>11:00 AM</td><td>3:00 PM</td></tr>
-<tr data-d="0"><th scope="row">Sunday</th><td>11:00 AM</td><td>3:00 PM, or 2:00 PM during football season</td></tr>
+<tr data-d="1"><th scope="row">Monday</th><td>10:00 AM &ndash; 9:00 PM</td><td>4:00 PM &ndash; 11:00 PM</td></tr>
+<tr data-d="2"><th scope="row">Tuesday</th><td>10:00 AM &ndash; 9:00 PM</td><td>4:00 PM &ndash; 11:00 PM</td></tr>
+<tr data-d="3"><th scope="row">Wednesday</th><td>10:00 AM &ndash; 9:00 PM</td><td>4:00 PM &ndash; 11:00 PM</td></tr>
+<tr data-d="4"><th scope="row">Thursday</th><td>10:00 AM &ndash; 9:00 PM</td><td>4:00 PM &ndash; 11:00 PM</td></tr>
+<tr data-d="5"><th scope="row">Friday</th><td>10:00 AM &ndash; 9:00 PM</td><td>3:00 PM &ndash; 12:00 AM</td></tr>
+<tr data-d="6"><th scope="row">Saturday</th><td>10:00 AM &ndash; 9:00 PM</td><td>3:00 PM &ndash; 12:00 AM</td></tr>
+<tr data-d="0"><th scope="row">Sunday</th><td>Closed</td><td>12:00 PM &ndash; 9:00 PM</td></tr>
 </tbody></table></div>
-<!-- PLACEHOLDER: closing times and holiday hours are not verified. Add a "closes" column once the owner confirms. -->
-<p class="note">Closing times are not posted here yet. Please call <a href="tel:+13076388703">(307) 638-8703</a> to confirm when we close. Holiday hours may differ.</p>
+<p class="note">Sample hours for a fictional business. Closed December 25.</p>
 </div></section>
 
 <section id="about" class="alt-bg"><div class="wrap">
 <h2>About</h2>
-<p class="lead">Midtown Tavern is a cozy neighborhood bar and a drive-thru package liquor store, all in one stop. Find your friends here after work or on weekends, or pull up to the drive-thru when you only need to grab something to go.</p>
+<p class="lead">Prairie Star Tavern is a friendly western-style bar with a small package store counter. Stop in for a cold drink after work, or pick up a bottle on your way home.</p>
 <div class="grid" style="margin-top:var(--gap)">
-<div class="card"><h3>The bar</h3><p>A neighborhood spot to settle in. The bar opens at 3:00 PM daily, and at 2:00 PM on Sundays during football season.</p></div>
-<div class="card"><h3>Drive-thru package store</h3><p>Pick up beer, wine and spirits to go without leaving your vehicle. The package store opens at 11:00 AM every day.</p></div>
+<div class="card"><h3>The bar</h3><p>Pull up a stool. The bar is open every day, with later hours on Fridays and Saturdays.</p></div>
+<div class="card"><h3>Package store</h3><p>Grab a bottle to take home. The package store is open Monday through Saturday and closed on Sundays.</p></div>
 </div></div></section>
 
 <section id="gallery"><div class="wrap">
 <h2>Inside a neighborhood tavern</h2>
-<p class="note" style="margin-top:0">These are generic stock photos. They are placeholders, not pictures of Midtown Tavern, and will be replaced with our own photos.</p>
+<p class="note" style="margin-top:0">These are generic stock photos. They are placeholders, not pictures of Prairie Star Tavern, and will be replaced with our own photos.</p>
 <div class="grid" style="margin-top:var(--gap)">
 <figure><img src="https://images.unsplash.com/photo-1711335792535-acacf1727eab?fm=jpg&amp;q=70&amp;w=1200&amp;auto=format&amp;fit=crop" alt="Three glasses of beer on a wooden table (stock photo)" loading="lazy" onerror="this.parentNode.hidden=true">
 <figcaption>Stock photo by <a href="https://unsplash.com/photos/three-glasses-of-beer-sitting-on-top-of-a-wooden-table-okfBw5_4vng" rel="noopener">Maria Klichik on Unsplash</a></figcaption></figure>
@@ -184,48 +175,43 @@ footer p{margin:.35rem 0}
 <h2>Contact</h2>
 <div class="grid">
 <div class="card"><dl>
-<dt>Phone</dt><dd><a class="big" href="tel:+13076388703">(307) 638-8703</a></dd>
-<dt>Address</dt><dd><address>1303 E Pershing Blvd<br>Cheyenne, WY 82001</address>
-<a href="https://www.google.com/maps/search/?api=1&amp;query=1303+E+Pershing+Blvd+Cheyenne+WY+82001">Open directions in Google Maps</a></dd>
-<dt>Facebook</dt><dd><a href="https://www.facebook.com/people/Midtown-Tavern/100057322673652/" rel="noopener">Midtown Tavern on Facebook</a></dd>
+<dt>Phone</dt><dd><a class="big" href="tel:+15555550142">(555) 555-0142</a></dd>
+<dt>Address</dt><dd><address>123 Sample Street<br>Anytown, ST 00000</address>
+<a href="https://www.google.com/maps">Open directions in Google Maps</a></dd>
+<dt>Facebook</dt><dd>Your Facebook page link goes here</dd>
+<dt>Events</dt><dd>Your events link goes here</dd>
 <!-- PLACEHOLDER: email not verified. Add a mailto: link only once the owner supplies an address. -->
 </dl></div>
 <div class="card"><h3>Hours at a glance</h3>
-<dl><dt>Drive-thru package liquor store</dt><dd>Opens 11:00 AM daily</dd>
-<dt>Bar</dt><dd>Opens 3:00 PM daily; 2:00 PM Sundays during football season</dd>
-<dt>Closing times</dt><dd>Call to confirm</dd></dl></div>
+<dl><dt>Package store</dt><dd>Mon&ndash;Sat 10:00 AM &ndash; 9:00 PM; closed Sunday</dd>
+<dt>Bar</dt><dd>Mon&ndash;Thu 4:00 PM &ndash; 11:00 PM; Fri&ndash;Sat 3:00 PM &ndash; 12:00 AM; Sun 12:00 PM &ndash; 9:00 PM</dd></dl></div>
 </div></div></section>
 </main>
 
 <footer><div class="wrap">
-<p>Midtown Tavern, 1303 E Pershing Blvd, Cheyenne, WY 82001 &middot; <a href="tel:+13076388703">(307) 638-8703</a></p>
-<p>Must be of legal drinking age to buy alcohol. This site uses no cookies, tracking or forms.</p>
+<p>Prairie Star Tavern, 123 Sample Street, Anytown, ST 00000 &middot; <a href="tel:+15555550142">(555) 555-0142</a></p>
+<p>Must be of legal drinking age to buy alcohol. This is a sample site for a fictional business. It uses no cookies, tracking or forms.</p>
 </div></footer>
 
-<div class="actionbar"><a class="btn" href="tel:+13076388703">Call us</a><a class="btn alt" href="https://www.google.com/maps/search/?api=1&amp;query=1303+E+Pershing+Blvd+Cheyenne+WY+82001">Directions</a></div>
+<div class="actionbar"><a class="btn" href="tel:+15555550142">Call us</a><a class="btn alt" href="https://www.google.com/maps">Directions</a></div>
 
 <script>
 (function(){
 "use strict";
-var TZ="America/Denver",PHONE="(307) 638-8703";
+var TZ="America/Denver",PHONE="(555) 555-0142";
 /* Minutes after midnight. Each day: list of [open, close]; close null = closing time NOT verified (PLACEHOLDER).
    Index 0 = Sunday. Split hours: add a second [open, close] pair. */
-var D=function(o){return [0,1,2,3,4,5,6].map(function(){return [[o,null]];});};
-var PLACES={store:{name:"The drive-thru package liquor store",days:D(660)},bar:{name:"The bar",days:D(900)}};
-var SUNDAY_EARLY=840; /* bar opens 2:00 PM Sundays in football season; season dates UNVERIFIED */
-/* Holiday overrides: {"YYYY-MM-DD":{store:"closed"|[[open,close]], bar:"closed"|[[open,close]]}} */
-var HOLIDAYS={};
+var PLACES={store:{name:"The package store",days:[[],[[600,1260]],[[600,1260]],[[600,1260]],[[600,1260]],[[600,1260]],[[600,1260]]]},
+bar:{name:"The bar",days:[[[720,1260]],[[960,1380]],[[960,1380]],[[960,1380]],[[960,1380]],[[900,1440]],[[900,1440]]]}};
+var HOLIDAYS={"2026-12-25":{store:"closed",bar:"closed"}};
 var DAYS=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-function fmt(m){var h=Math.floor(m/60),mm=m%60,ap=h>=12?"PM":"AM";h=h%12||12;return h+":"+(mm<10?"0":"")+mm+" "+ap;}
+function fmt(m){var h=Math.floor(m/60)%24,mm=m%60,ap=h>=12?"PM":"AM";h=h%12||12;return h+":"+(mm<10?"0":"")+mm+" "+ap;}
 function now(){var p={};new Intl.DateTimeFormat("en-US",{timeZone:TZ,weekday:"long",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date()).forEach(function(x){p[x.type]=x.value;});
 return {wd:DAYS.indexOf(p.weekday),date:p.year+"-"+p.month+"-"+p.day,min:+p.hour*60+ +p.minute};}
 function rangesFor(key,t){var h=HOLIDAYS[t.date];if(h&&h[key]!==undefined)return {r:h[key]==="closed"?[]:h[key],hol:true};return {r:PLACES[key].days[t.wd],hol:false};}
 function status(key,t){
 var P=PLACES[key],x=rangesFor(key,t),r=x.r,i;
 if(!r.length)return {s:"closed",t:P.name+" is closed today"+(x.hol?" (holiday).":".")};
-if(key==="bar"&&t.wd===0&&!x.hol){
-if(t.min<SUNDAY_EARLY)return {s:"closed",t:P.name+" is closed right now. On Sundays it opens at "+fmt(SUNDAY_EARLY)+" during football season, otherwise at "+fmt(r[0][0])+"."};
-if(t.min<r[0][0])return {s:"maybe",t:P.name+" may be open: Sundays start at "+fmt(SUNDAY_EARLY)+" in football season, otherwise "+fmt(r[0][0])+". Call "+PHONE+" to confirm."};}
 for(i=0;i<r.length;i++){var o=r[i][0],c=r[i][1];
 if(t.min<o)return {s:"closed",t:P.name+" is closed right now and opens today at "+fmt(o)+"."};
 if(c===null)return {s:"open",t:P.name+" opened today at "+fmt(o)+". Closing time is not confirmed, so call "+PHONE+" to check."};
